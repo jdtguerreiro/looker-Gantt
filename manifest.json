@@ -1,10 +1,17 @@
 {
   "visualization": {
     "id": "custom-gantt-chart",
-    "name": "Custom Gantt Chart",
+    "label": "Custom Gantt Chart",
     "description": "A custom Gantt chart using Google Charts",
     "iconUrl": "https://raw.githubusercontent.com/jdtguerreiro/looker-Gantt/main/gantt-chart.svg", 
     "scripts": ["https://raw.githubusercontent.com/jdtguerreiro/looker-Gantt/main/index.js"],
     "style": ["https://raw.githubusercontent.com/jdtguerreiro/looker-Gantt/main/index.css"]
-  }
+  },
+  "organization": {
+    "name": "Your Organization Name",
+    "logoUrl": "https://raw.githubusercontent.com/jdtguerreiro/looker-Gantt/main/gantt-chart.svg"
+  },
+  "status": "alpha",
+  "supportedChartTypes": ["TABLE", "TIME_SERIES", "BAR", "LINE"],
+  "defaultChartType": "TABLE"
 }
