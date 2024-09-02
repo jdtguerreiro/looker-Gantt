@@ -1,0 +1,10 @@
+{
+  "visualization": {
+    "id": "custom-gantt-chart",
+    "name": "Custom Gantt Chart",
+    "description": "A custom Gantt chart using Google Charts",
+    "iconUrl": "https://github.com/jdtguerreiro/looker-Gantt/gantt-chart.svg", 
+    "scripts": ["https://jdtguerreiro.github.io/looker-Gantt/index.js"],
+    "style": ["https://jdtguerreiro.github.io/looker-Gantt/index.css"]
+  }
+}
